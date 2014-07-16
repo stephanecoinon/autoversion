@@ -1,0 +1,23 @@
+{
+    "name": "stephanecoinon/autoversion",
+    "description": "Prefix asset file name with a timestamp to invalidate cache if a new asset is uploaded on the server.",
+    "version": "0.1.0",
+    "authors": [
+        {
+            "name": "Stephane Coinon",
+            "email": "me@stephanecoinon.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "require-dev": {
+        "mikey179/vfsStream": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Coinon\\AutoVersion\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
