@@ -1,6 +1,6 @@
 {
     "name": "stephanecoinon/autoversion",
-    "description": "Prefix asset file name with a timestamp to invalidate cache if a new asset is uploaded on the server.",
+    "description": "Suffix asset file name with a timestamp to invalidate cache if a new asset is uploaded on the server.",
     "version": "0.1.0",
     "authors": [
         {

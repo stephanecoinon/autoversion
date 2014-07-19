@@ -30,10 +30,10 @@ And if you're using the excellent [Laravel](http://laravel.com) framework, it's 
 ```php
 'providers' => array(
 
-	//...
+	// Your current providers are here ...
 
 	'Coinon\AutoVersion\AutoVersionServiceProvider',
-)
+);
 ```
 
 The service provider will take care of:
