@@ -2,6 +2,8 @@
     "name": "stephanecoinon/autoversion",
     "description": "Suffix asset file name with a timestamp to invalidate cache if a new asset is uploaded on the server.",
     "version": "0.1.0",
+    "homepage": "https://github.com/stephanecoinon/autoversion",
+    "license": "MIT",
     "authors": [
         {
             "name": "Stephane Coinon",
