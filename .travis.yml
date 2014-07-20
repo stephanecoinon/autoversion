@@ -6,7 +6,7 @@ php:
   - 5.6
 
 before_script:
-  - composer self-update
+#  - composer self-update  # commented out as it crashes often
   - composer install --prefer-source --no-interaction --dev
 
 script: phpunit
