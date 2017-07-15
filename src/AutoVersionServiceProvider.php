@@ -14,7 +14,11 @@ class AutoVersionServiceProvider extends ServiceProvider {
 
 	public function boot()
 	{
-		$this->package('stephanecoinon/autoversion');
+		// Laravel 4.*
+		if (method_exists($this, 'package')) {
+			$this->package('stephanecoinon/autoversion');
+		}
+
 		AliasLoader::getInstance()->alias('AutoVersion', 'Coinon\AutoVersion\AutoVersion');
 		AutoVersion::setDocumentRoot(public_path());
 	}
